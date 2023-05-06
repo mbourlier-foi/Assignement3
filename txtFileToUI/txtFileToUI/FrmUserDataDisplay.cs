@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace txtFileToUI
 {
-    public partial class Form1 : Form
+    public partial class FrmUserDataDisplay : Form
     {
-        public Form1()
+        public FrmUserDataDisplay()
         {
             InitializeComponent();
+        }
+
+        private void FrmUserDataDisplay_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
