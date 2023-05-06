@@ -46,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\UserDisplayer.cs" />
+    <Compile Include="Classes\UserFileReader.cs" />
+    <Compile Include="Classes\UserInfoForm.cs" />
+    <Compile Include="Classes\UserParser.cs" />
     <Compile Include="FrmUserDataDisplay.cs">
       <SubType>Form</SubType>
     </Compile>
