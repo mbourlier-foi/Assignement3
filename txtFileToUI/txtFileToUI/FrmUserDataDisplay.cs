@@ -33,7 +33,6 @@ namespace txtFileToUI
                 UserInfoForm userInfoForm = new UserInfoForm(userParser.ParseDate(userFileReader.ReadFile()));
                 UserDisplayer userDisplayer = new UserDisplayer();
                 userDisplayer.DisplayUserInfo(this, userInfoForm);
-
             }
         }
     }
