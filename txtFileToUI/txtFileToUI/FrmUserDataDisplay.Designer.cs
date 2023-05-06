@@ -101,42 +101,42 @@
             // 
             this.txtFullName.Location = new System.Drawing.Point(227, 96);
             this.txtFullName.Name = "txtFullName";
-            this.txtFullName.Size = new System.Drawing.Size(180, 22);
+            this.txtFullName.Size = new System.Drawing.Size(251, 22);
             this.txtFullName.TabIndex = 6;
             // 
             // txtCity
             // 
             this.txtCity.Location = new System.Drawing.Point(227, 183);
             this.txtCity.Name = "txtCity";
-            this.txtCity.Size = new System.Drawing.Size(180, 22);
+            this.txtCity.Size = new System.Drawing.Size(251, 22);
             this.txtCity.TabIndex = 7;
             // 
             // txtYearofbirth
             // 
             this.txtYearofbirth.Location = new System.Drawing.Point(227, 139);
             this.txtYearofbirth.Name = "txtYearofbirth";
-            this.txtYearofbirth.Size = new System.Drawing.Size(180, 22);
+            this.txtYearofbirth.Size = new System.Drawing.Size(251, 22);
             this.txtYearofbirth.TabIndex = 8;
             // 
             // txtFaculty
             // 
             this.txtFaculty.Location = new System.Drawing.Point(227, 228);
             this.txtFaculty.Name = "txtFaculty";
-            this.txtFaculty.Size = new System.Drawing.Size(180, 22);
+            this.txtFaculty.Size = new System.Drawing.Size(251, 22);
             this.txtFaculty.TabIndex = 9;
             // 
             // txtRole
             // 
             this.txtRole.Location = new System.Drawing.Point(227, 272);
             this.txtRole.Name = "txtRole";
-            this.txtRole.Size = new System.Drawing.Size(180, 22);
+            this.txtRole.Size = new System.Drawing.Size(251, 22);
             this.txtRole.TabIndex = 10;
             // 
             // txtRoleSpecificAttribute
             // 
             this.txtRoleSpecificAttribute.Location = new System.Drawing.Point(227, 312);
             this.txtRoleSpecificAttribute.Name = "txtRoleSpecificAttribute";
-            this.txtRoleSpecificAttribute.Size = new System.Drawing.Size(180, 22);
+            this.txtRoleSpecificAttribute.Size = new System.Drawing.Size(251, 22);
             this.txtRoleSpecificAttribute.TabIndex = 11;
             // 
             // btnChooseFile
@@ -153,7 +153,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(452, 415);
+            this.ClientSize = new System.Drawing.Size(544, 385);
             this.Controls.Add(this.btnChooseFile);
             this.Controls.Add(this.txtRoleSpecificAttribute);
             this.Controls.Add(this.txtRole);

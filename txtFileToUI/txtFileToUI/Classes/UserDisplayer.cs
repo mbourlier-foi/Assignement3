@@ -28,6 +28,7 @@ namespace txtFileToUI.Classes
                 form.Controls["txtCity"].Text = user.City;
                 form.Controls["txtFaculty"].Text = user.Faculty;
                 form.Controls["txtRole"].Text = user.Role;
+                form.Controls["txtRoleSpecificAttribute"].Text = user.RoleSpecificAttribute;
             }
             else
             {

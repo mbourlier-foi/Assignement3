@@ -18,6 +18,11 @@ namespace txtFileToUI.Classes
                 string[] field = row.Split('=');
                 if (field.Length == 2)
                 {
+                    if (list.Count() == 6)
+                    {
+                        string tmp = field[0].Trim();
+                        list.Add(tmp);
+                    }
                     string value = field[1].Trim();
                     list.Add(value);
 

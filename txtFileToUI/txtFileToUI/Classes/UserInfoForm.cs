@@ -25,7 +25,7 @@ namespace txtFileToUI.Classes
             City = tab[3];
             Faculty = tab[4];
             Role = tab[5];
-            RoleSpecificAttribute = "";
+            RoleSpecificAttribute = tab[6];
         }
     }
 }
