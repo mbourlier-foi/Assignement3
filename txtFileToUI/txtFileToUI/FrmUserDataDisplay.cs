@@ -28,11 +28,11 @@ namespace txtFileToUI
             OpenFileDialog fileDialog = new OpenFileDialog();
             if (fileDialog.ShowDialog() == DialogResult.OK)
             {
-                //UserFileReader userFileReader = new UserFileReader(fileDialog.FileName);
+                UserFileReader userFileReader = new UserFileReader(fileDialog.FileName);
                 UserParser userParser = new UserParser();
-                //UserInfoForm userInfoForm = new UserInfoForm(userParser.stringParser(userFileReader.readfile()));
-                //UserDisplayer userDisplayer = new UserDisplayer(this, userInfoForm);
-                //userDisplayer.DisplayUserInfo(this, userInfoForm);
+                UserInfoForm userInfoForm = new UserInfoForm(userParser.ParseDate(userFileReader.ReadFile()));
+                UserDisplayer userDisplayer = new UserDisplayer();
+                userDisplayer.DisplayUserInfo(this, userInfoForm);
 
             }
         }

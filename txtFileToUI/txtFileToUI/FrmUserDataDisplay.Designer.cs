@@ -34,19 +34,19 @@
             this.lblFaculty = new System.Windows.Forms.Label();
             this.lblRole = new System.Windows.Forms.Label();
             this.lblRoleSpecificAttribute = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtFullName = new System.Windows.Forms.TextBox();
+            this.txtCity = new System.Windows.Forms.TextBox();
+            this.txtYearofbirth = new System.Windows.Forms.TextBox();
+            this.txtFaculty = new System.Windows.Forms.TextBox();
+            this.txtRole = new System.Windows.Forms.TextBox();
+            this.txtRoleSpecificAttribute = new System.Windows.Forms.TextBox();
             this.btnChooseFile = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblFullName
             // 
             this.lblFullName.AutoSize = true;
-            this.lblFullName.Location = new System.Drawing.Point(52, 103);
+            this.lblFullName.Location = new System.Drawing.Point(52, 99);
             this.lblFullName.Name = "lblFullName";
             this.lblFullName.Size = new System.Drawing.Size(71, 16);
             this.lblFullName.TabIndex = 0;
@@ -55,7 +55,7 @@
             // lblYearOfBirth
             // 
             this.lblYearOfBirth.AutoSize = true;
-            this.lblYearOfBirth.Location = new System.Drawing.Point(52, 146);
+            this.lblYearOfBirth.Location = new System.Drawing.Point(52, 142);
             this.lblYearOfBirth.Name = "lblYearOfBirth";
             this.lblYearOfBirth.Size = new System.Drawing.Size(81, 16);
             this.lblYearOfBirth.TabIndex = 1;
@@ -64,7 +64,7 @@
             // lblCity
             // 
             this.lblCity.AutoSize = true;
-            this.lblCity.Location = new System.Drawing.Point(52, 190);
+            this.lblCity.Location = new System.Drawing.Point(52, 186);
             this.lblCity.Name = "lblCity";
             this.lblCity.Size = new System.Drawing.Size(32, 16);
             this.lblCity.TabIndex = 2;
@@ -73,7 +73,7 @@
             // lblFaculty
             // 
             this.lblFaculty.AutoSize = true;
-            this.lblFaculty.Location = new System.Drawing.Point(52, 235);
+            this.lblFaculty.Location = new System.Drawing.Point(52, 231);
             this.lblFaculty.Name = "lblFaculty";
             this.lblFaculty.Size = new System.Drawing.Size(53, 16);
             this.lblFaculty.TabIndex = 3;
@@ -82,7 +82,7 @@
             // lblRole
             // 
             this.lblRole.AutoSize = true;
-            this.lblRole.Location = new System.Drawing.Point(52, 276);
+            this.lblRole.Location = new System.Drawing.Point(52, 272);
             this.lblRole.Name = "lblRole";
             this.lblRole.Size = new System.Drawing.Size(39, 16);
             this.lblRole.TabIndex = 4;
@@ -91,57 +91,57 @@
             // lblRoleSpecificAttribute
             // 
             this.lblRoleSpecificAttribute.AutoSize = true;
-            this.lblRoleSpecificAttribute.Location = new System.Drawing.Point(52, 319);
+            this.lblRoleSpecificAttribute.Location = new System.Drawing.Point(52, 315);
             this.lblRoleSpecificAttribute.Name = "lblRoleSpecificAttribute";
             this.lblRoleSpecificAttribute.Size = new System.Drawing.Size(140, 16);
             this.lblRoleSpecificAttribute.TabIndex = 5;
             this.lblRoleSpecificAttribute.Text = "[role specific attribute]:";
             // 
-            // textBox1
+            // txtFullName
             // 
-            this.textBox1.Location = new System.Drawing.Point(227, 100);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 22);
-            this.textBox1.TabIndex = 6;
+            this.txtFullName.Location = new System.Drawing.Point(227, 96);
+            this.txtFullName.Name = "txtFullName";
+            this.txtFullName.Size = new System.Drawing.Size(180, 22);
+            this.txtFullName.TabIndex = 6;
             // 
-            // textBox2
+            // txtCity
             // 
-            this.textBox2.Location = new System.Drawing.Point(227, 187);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(180, 22);
-            this.textBox2.TabIndex = 7;
+            this.txtCity.Location = new System.Drawing.Point(227, 183);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(180, 22);
+            this.txtCity.TabIndex = 7;
             // 
-            // textBox3
+            // txtYearofbirth
             // 
-            this.textBox3.Location = new System.Drawing.Point(227, 143);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(180, 22);
-            this.textBox3.TabIndex = 8;
+            this.txtYearofbirth.Location = new System.Drawing.Point(227, 139);
+            this.txtYearofbirth.Name = "txtYearofbirth";
+            this.txtYearofbirth.Size = new System.Drawing.Size(180, 22);
+            this.txtYearofbirth.TabIndex = 8;
             // 
-            // textBox4
+            // txtFaculty
             // 
-            this.textBox4.Location = new System.Drawing.Point(227, 232);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(180, 22);
-            this.textBox4.TabIndex = 9;
+            this.txtFaculty.Location = new System.Drawing.Point(227, 228);
+            this.txtFaculty.Name = "txtFaculty";
+            this.txtFaculty.Size = new System.Drawing.Size(180, 22);
+            this.txtFaculty.TabIndex = 9;
             // 
-            // textBox5
+            // txtRole
             // 
-            this.textBox5.Location = new System.Drawing.Point(227, 276);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(180, 22);
-            this.textBox5.TabIndex = 10;
+            this.txtRole.Location = new System.Drawing.Point(227, 272);
+            this.txtRole.Name = "txtRole";
+            this.txtRole.Size = new System.Drawing.Size(180, 22);
+            this.txtRole.TabIndex = 10;
             // 
-            // textBox6
+            // txtRoleSpecificAttribute
             // 
-            this.textBox6.Location = new System.Drawing.Point(227, 316);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(180, 22);
-            this.textBox6.TabIndex = 11;
+            this.txtRoleSpecificAttribute.Location = new System.Drawing.Point(227, 312);
+            this.txtRoleSpecificAttribute.Name = "txtRoleSpecificAttribute";
+            this.txtRoleSpecificAttribute.Size = new System.Drawing.Size(180, 22);
+            this.txtRoleSpecificAttribute.TabIndex = 11;
             // 
             // btnChooseFile
             // 
-            this.btnChooseFile.Location = new System.Drawing.Point(55, 44);
+            this.btnChooseFile.Location = new System.Drawing.Point(55, 39);
             this.btnChooseFile.Name = "btnChooseFile";
             this.btnChooseFile.Size = new System.Drawing.Size(171, 23);
             this.btnChooseFile.TabIndex = 12;
@@ -153,14 +153,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(452, 370);
+            this.ClientSize = new System.Drawing.Size(452, 415);
             this.Controls.Add(this.btnChooseFile);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtRoleSpecificAttribute);
+            this.Controls.Add(this.txtRole);
+            this.Controls.Add(this.txtFaculty);
+            this.Controls.Add(this.txtYearofbirth);
+            this.Controls.Add(this.txtCity);
+            this.Controls.Add(this.txtFullName);
             this.Controls.Add(this.lblRoleSpecificAttribute);
             this.Controls.Add(this.lblRole);
             this.Controls.Add(this.lblFaculty);
@@ -187,12 +187,12 @@
         private System.Windows.Forms.Label lblFaculty;
         private System.Windows.Forms.Label lblRole;
         private System.Windows.Forms.Label lblRoleSpecificAttribute;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtFullName;
+        private System.Windows.Forms.TextBox txtCity;
+        private System.Windows.Forms.TextBox txtYearofbirth;
+        private System.Windows.Forms.TextBox txtFaculty;
+        private System.Windows.Forms.TextBox txtRole;
+        private System.Windows.Forms.TextBox txtRoleSpecificAttribute;
         private System.Windows.Forms.Button btnChooseFile;
     }
 }

@@ -17,22 +17,21 @@ namespace txtFileToUI.Classes
         {
             if (user == null)
             {
-                Console.WriteLine("There is no such user to display");
+                Console.WriteLine("There is no user to display.");
             }
 
             if (form != null)
             {
                 /* Modify the text of the textboxes */
-                form.Controls["FullNameTextBox"].Text = user.FullName;
-                form.Controls["YearOfBirthTextBox"].Text = user.YearOfBirth.ToString();
-                form.Controls["CityTextBox"].Text = user.CityOfOrigin;
-                form.Controls["FacultyTextBox"].Text = user.Faculty;
-                form.Controls["RoleTextBox"].Text = user.Role;
-                form.Controls["RoleSpecificAttributeTextBox"].Text = user.RoleSpecificAttribute;
+                form.Controls["txtFullName"].Text = user.Name + " " + user.Surname;
+                form.Controls["txtYearofbirth"].Text = user.YearOfBirth;
+                form.Controls["txtCity"].Text = user.City;
+                form.Controls["txtFaculty"].Text = user.Faculty;
+                form.Controls["txtRole"].Text = user.Role;
             }
             else
             {
-                Console.WriteLine("There is no form to display the user");
+                Console.WriteLine("There is no form to display the user.");
             }
         }
     }
