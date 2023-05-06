@@ -16,8 +16,6 @@ namespace txtFileToUI.Classes
             filePath = file;
         }
 
-
-        //Methods
         public string ReadFile()
         {
             string data;
